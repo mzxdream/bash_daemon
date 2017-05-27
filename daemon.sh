@@ -14,7 +14,7 @@ function check_process()
 if [ "$1" = "" ];
 then
     echo "please input ./xxx"
-    return
+    exit
 fi
 
 while [ 1 ] ; do
